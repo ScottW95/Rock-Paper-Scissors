@@ -9,7 +9,7 @@ int main (){
     int computer = rand()%(3-1)+1;
 
     //Creates variable for the player's choice and score
-    int player;    
+    int player;  
     string restart;
     int p_score = 0;
     int c_score = 0;
@@ -26,7 +26,6 @@ int main (){
         cout << "3.) Scissor\n";
         cout << "Please enter the number of your selection: \n";
         cin >> player;
-
 
             if (player == 1 && computer == 1 ){
                 cout << "Sorry! Both you and the computer chose Rock.  It's a tie!\n";
